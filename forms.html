@@ -1,0 +1,32 @@
+<!--  aula forms.. Capturar dados de entrada, {input =entrada 
+    Action= define para qual url sera enviado os dados , vazio envia para mesma url 
+    Parametro Method='' GET ou POST  ''
+    Quando tem um button dentro do formulario do tipo submit ele sabe que quado o botao for clicado ele vai pegar os dados de todos campos do input e enviar Mas e preciso usar o parametro ENCTYPE="MULTIPART/FORM-DATA" -->
+<form action="" method="get" enctype="multipart/form-data">
+    <h1> Aula sobre formulario!</h1>
+    <br>
+    <label>
+        digite seu email:
+        <input type="email" name="email" autocomplete="email">
+    </label>
+    <br>
+    <label>
+        <i>Digite seu nome:</i>
+        <input type="text" name="digitar nome">
+    </label>
+    <br>
+
+    <label>
+        <b>Que ano voce nasceu:</b>
+        <Input type="date" name="data de nascimento" autocomplete="bday">
+    </label>
+    <br>
+    <label>
+        Envie sua foto:
+        <input type="file" name="enviar arquivo123">
+    </label>
+    <button type="submit">ENVIAR DADOS</button>
+    <button type=" reset">LIMPAR</button>
+
+
+</form>
